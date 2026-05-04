@@ -360,7 +360,9 @@
     .hero {
       grid-template-columns: 1fr;
       padding: 110px 20px 60px;
+      padding-top: calc(140px + env(safe-area-inset-top));
       gap: 48px;
+      align-items: start;
     }
     .hero-right { aspect-ratio: 4 / 5; max-width: 380px; margin: 0 auto; }
     .book-cta { font-size: 13px; padding: 18px 32px; }
